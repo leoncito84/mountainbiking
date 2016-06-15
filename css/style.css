@@ -1,0 +1,308 @@
+/*Auto complete - search box*/
+
+#auto-complete-app {
+	
+}
+/*=======================================================
+MASTER BODY
+========================================================*/
+html, body{
+    background: #2f2f2f;
+    color: white;
+    width: 100%;
+    height: 100%;}
+
+
+#index-bg-image {
+/*url(../img/branddsds.jpg) no-repeat center center fixed;*/
+background-image: url("../img/branddsds.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center; 
+    width: 100%;
+    height: 100%;
+
+
+
+    
+}
+}
+
+P{
+    font-size: 14px;
+    color: #cfd3d4;
+    letter-spacing: 0.1em;
+    
+  
+    
+}
+
+
+/*=======================================================
+NAV BAR - DEFAULT
+========================================================*/
+.navbar-default {
+    background-color: #5BD809;
+    border-color: #e7e7e7;
+
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    text-align: center;
+    color:#5BD809;
+}
+
+
+
+.h1, h1 {
+    font-size: 24px;
+   
+    text-align: center;
+    color: #EFEEED;
+    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 23px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23.1px;
+    width:100%;
+}
+}
+
+
+
+.h4 {
+    font-size: 16px;
+    
+}
+
+.pager li>a {
+    background-color:#3C2410;
+    border-color: #fff;
+}
+
+.thumbnail a>img, .thumbnail>img {
+margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.h4 caption-overflow {
+margin-top: -78px;
+
+}
+
+#map-routes {
+    height: 370px;
+    display: block;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+
+
+/*=========================================
+SearchBox
+=========================================*/
+.form-control{
+    width:99%;
+    background-color: #3C2410;
+    border-color: #5BD809;
+    color: #FAFCFC;
+    font-weight: 500;
+}
+        
+
+
+/*=========================================
+Button-Default - background-color
+=========================================*/
+.btn-default {
+    color: #333;
+    font-weight: 700;
+    background-color: #B9B9B9;
+    border-color: #55F911;
+
+}
+
+
+
+
+/*==========================================
+Media-Object --Route
+============================================*/
+    
+.media-object{
+background-color: #fff; 
+border: 1px solid #ddd;
+-webkit-box-shadow: -5px -3px 0px -3px rgba(219,212,219,0.19);
+-moz-box-shadow: -5px -3px 0px -3px rgba(219,212,219,0.19);
+box-shadow: -5px -3px 0px -3px rgba(219,212,219,0.19);
+    
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left: 10px;
+}
+
+/*==========================================
+Thumbail --Product
+============================================*/
+.thumbnail {
+ 
+  padding: 0px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
+
+/*==========================================
+Products ** modal fade
+============================================*/
+
+.modal-body {
+    position: relative;
+    padding: 15px;
+    background-color: #2f2f2f;
+}
+
+.modal-title {
+    margin: 22px;
+    line-height: 1.42857143;
+    background: black;
+}
+
+.modal-header {
+    padding: 14px;
+    border-bottom: 3px solid #07E80B;
+  
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3C2410;
+    border-color: #5BD809;
+}
+
+btn hover {
+
+    color: #fff;
+    background-color: fff;
+    border-color: #204d74;
+}
+
+
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 8px 126px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #3C2410;
+    border-color: #55F911;
+    width: 100%;
+}
+
+
+
+/*============================================================
+About ** Panel heading
+=============================================================*/
+
+.panel-body{
+   padding: 15px;
+    background-color: #040708;
+   
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #5BD809;
+        border: 1px solid #3C2410;
+}
+
+
+
+/*============================================================
+Products ** Toogle data - Nav-default (Unknown of color/hover)
+=============================================================*/
+
+
+a{
+    color:#5BD809;
+}
+
+
+/*============================================================
+Nav Brand
+=============================================================*/
+
+/*.navbar-brand {
+  float: left;
+  height: 35px;
+  padding: 15px 15px;
+  
+  line-height: 20px;
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+  text-decoration: none;
+}
+.navbar-brand > img {
+  display: block;
+}
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+}*/
+
+/*===============================================================
+Carousel-caption - No WORKING CSS - ALL TICKED OFF EACH 'POSITION: ABSOLUTE
+=================================================================*/
+
+
+.carousel-caption {
+ /*position: absolute;*/
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FF0016;
+    text-align: center;
+    text-shadow: 0 -6px 10px #EFEEED;
+    font-weight:800;
+
+}
+
+
+#index-bg-image 
+url(../img/branddsds.jpg) no-repeat center center fixed;
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	background: url(../img/branddsds.jpg) no-repeat center center fixed;
+}
+
+/*====================================================================
+
+*/=====================================================================
+
