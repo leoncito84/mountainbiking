@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Search and location</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--CSS style-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head> 
+  <body>
+ 
+   <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+          <img src="img/bike_route.png" ></a>
+    </div>
+
+    <!-- Collect the nav links, The links are Register and FAQ.-->
+   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active">
+            
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+          
+              <li><a href="searchandlocation.html"><span class="glyphicon glyphicon-map-marker"></span> Search and Location</a></li>
+        <li><a href="product.html"><span class="glyphicon glyphicon-picture"></span> Products</a></li>
+        <li><a href="about.html"><span class="glyphicon glyphicon-list-alt"></span> About</a></li>
+        <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span>  Contact</a></li>
+                   <li><a href="qjuery_index.html"><span class="glyphicon glyphicon-th-list"></span> Test JSON</a></li>
+       
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ 
+     <div class="page-header">
+  <h1>Search and Route</h1>
+  </div>
+
+<!--top group of header on buttons-->
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+      <a href='index.html'>
+    <button type="button"  class="btn btn-default"> Home</button>
+          </a>
+  </div>
+  <div class="btn-group" role="group">
+      <a href='product.html'>
+    <button type="button" class="btn btn-default">Product</button>
+      </a>
+    
+  </div> <!--Never delete it!!-->
+</div><br>
+<!--====================================================================-->
+ 
+      
+<!--=========================================================================-->      
+<!--Search box - Locations+Miles(Ajax Auto Complete)-->
+<!--=========================================================================-->
+<div class=""><!-- col-lg-6 -->
+    <div class="input-group">
+      <input type="text" class="form-control" id="searchField" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+    
+<!--=========================================================================-->      
+ <!--Media alignment( The pictures and details of Route Biking)--> <!--REFERENCE--> 
+    <!-- 1) http://www.forestry.gov.uk/england-mountainbiking#Haldon-->
+    <!--2) http://www.mbwales.com/default.aspx-->
+<!--=========================================================================-->
+
+
+      <!--Search for pages-->
+      <!--Whinlatter- - ///-->    
+<div class="media" data-location="53.6520544,-1.8228054" data-start="64 Rawthorpe Ln, Huddersfield HD5 9NU, UK" data-end="410 Cardiff CA1 1AA , Birmingham B44 8NB, UK">
+    
+    
+  <div class="media-left media-middle">
+    <a href="#" class="route-link">
+      <img class="media-object" src="img/2020347t.jpg"  alt="Whinlatter">
+    </a>
+  </div>
+  <div class="media-body">
+    <h2 class="media-heading"></h2>
+    <h4 class="media-title">Whinlatter (NW)</h4>
+    <p>Whinlatter puts the mountain back into mountain biking. The Altura Trail is already a classic affording stunning views, crazy descents and leg burning climbs.</p>
+    <h4>Route Miles</h4>
+    <p>This fantastic blue grade route is 7.5km long with a shorter <b>3.5 km</b> option</p>
+  </div>
+</div>
+    
+     <!--Search for pages-->
+      <!--Delamere (NW)- -///-->
+<div class="media" data-location="53.217510, -2.659394" data-start="46 Eddisbury Hill, Delamere, Northwich CW8 2HY, UK" data-end="Delamere rd, Norley, Frodsham, WA6 6NQ, UK">
+    
+  <div class="media-left media-middle">
+    <a href="#" class="route-link">
+      <img class="media-object" src="img/moelfre_0414.jpg"  alt="Whinlatter" width="152" height="101">
+    </a>
+  </div>
+  <div class="media-body">
+    <h2 class="media-heading"></h2>
+      
+     
+      <h4 class="media-title">Delamere (NW)</h4>
+    <p>Combining miles of XC trails with a great skills area, Delamere's light soils make it an all year round venue. Cheshire's largest woodland area is a stone's throw from the major cities of the North West and an excellent venue for evening rides. Please note that the car parks are locked at 8pm in summer and 5pm in winter.</p>
+<h4>Route Miles</h4>
+      <p>Whitemoor - start at Delamere forest centre - white waymarkers - 7 miles - 1 hour - forest road<b>7.4 km</b> option</p>
+  </div>
+</div>
+    
+ 
+      <!--Search for pages-->
+      <!--Grizedale (NW)- -///-->
+<div class="media" data-location="54.340595, -3.023214" data-start="Grizedale, Ambleside, UK" data-end="Satterhwaite, Cumbria, UK">
+  <div class="media-left media-middle">
+      
+    <a href="#" class="route-link">
+      <img class="media-object" src="img/430464n.jpg"  alt="Grizedale" width="152" height="101">
+    </a>
+  </div>
+  <div class="media-body">
+    <h2 class="media-heading"></h2>
+      
+  
+      <h4 class="media-title">Grizedale (NW) </h4>
+    <p>Grizedale plays host to The North Face Trail and is a great base for expeditions along the challenging mountainous routes of the southern Lake District.</p>
+<h4>Route Miles</h4>
+      <p>Trailquest courses from Easy forest roads, ideal for beginners, approx 8 miles to hard forest road and singletrack with lots of climbing, approx 20 miles. <b>20 miles</b> option</p>
+  </div>
+</div>
+    
+    
+      <!--Search for pages-->
+      <!--Gisburn Forest (NW)- -///-->
+<div class="media" data-location="54.000487, -2358140" data-start="Bailey Ln, Skipton BD23, UK" data-end="Bowland Forest High, Lancashire, UK">
+  <div class="media-left media-middle">
+      
+      
+    <a href="#" class="route-link">
+      <img class="media-object" src="img/Mountain-Bike-Skills-3.jpg"  alt="Gisburn Forset" width="152" height="101">
+    </a>
+  </div>
+  <div class="media-body">
+    <h2 class="media-heading"></h2>
+      
+  
+      <h4 class="media-title">Gisburn Forest (NW)</h4>
+    <p>Start your adventure on the Skills Loop where you can learn how to ride or brush up on your trail feature skills from table tops to berms. Or head straight out on the Bottoms Beck or The 8 bike trails.</p>
+<h4>Route Miles</h4>
+      <p> <b>8.5 km</b> option</p>
+  </div>
+</div>
+
+     <!--Search for pages-->
+      <!--Kielder (NE) (NW)- -///-->
+<div class="media" data-location="55.312200, -2.378748" data-start="Rochester, Northumberland, UK" data-end="Kielderhead National Nature Reserve, UK">
+  <div class="media-left media-middle">
+  
+    <a href="#" class="route-link">
+        
+        
+      <img class="media-object" src="img/DHP_MAI_021215down_01JPG.jpg"  alt="Kielder (NE)" width="152" height="101">
+    </a>
+  </div>
+  <div class="media-body">
+    <h2 class="media-heading"></h2>
+      
+  
+      <h4 class="media-title">Kielder (NE)</h4>
+    <p>Wilderness mountain biking at its best with epic red grade trails and cross boarder links to the Newcastleton Seven Stanes Centre. The lakeside blue grade trails offer spectacular views.</p>
+<h4>Route Miles</h4>
+      <p>Deadwater Black Grade (Up and Over) MTB Trail, Kielder Water and Forest Park <b>26 miles</b> option</p>
+  </div>
+</div>
+   
+    
+    <!--Search for pages-->
+      <!--Hamsterley Forest (NE) - -///-->
+<div class="media" data-location="54.672731, -1.901940" data-start="1 The Grove, Redford. Hamsterley, Bisshop Auckland DL13 3NL, UK" data-end="Bisshop Auckland DL13 5NJ, UK">
+
+  <div class="media-left media-middle">
+    <a href="#" class="route-link">
+      <img class="media-object" src="img/forsetgreen.jpg"  alt="Hamsterley (NE)" width="152" height="101">
+    </a>
+  </div>
+  <div class="media-body">
+    <h2 class="media-heading"></h2>
+      
+  
+    <h4 class="media-title">Hamsterley Forest (NE) </h4>
+    <p>The North East's hidden gem, combes miles of cross country routes with the adrenaline fuelled 4X course of Descend Bike Park. A fantastic place for all levels of skill and experience.</p>
+    <h4>Route Miles</h4>
+      <p>Hamsterley Forest is one of the Northeast’s premier mountain bike destinations, with over 2000 hectares of forest<b> 33 miles</b> option</p>
+  </div>
+</div>
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--===================================================================================================-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (belo <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>), or include individual files as needed -->
+
+    <!-- temporarily commented below out -->
+    <!--  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> -->
+    <!--  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script> -->
+    
+    <!--Auto Complete-->
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/App.js"></script>
+
+  </body>
+</html>
