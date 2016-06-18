@@ -1,0 +1,25 @@
+  [
+            {
+                "location": "Whinilatter NW",
+                "describle":  "Whinlatter puts the mountain back into mountain biking.",
+                "routesmiles": "20 miles",
+                "name": "name 1"
+               
+                
+            },
+            {
+               "location": "Delamere qwerty",
+                "describle":  "Combining miles of XC trails with a great skills area.",
+                "routesmiles": "7 miles",
+                "name": "name 2"
+
+            },
+            {
+               "location": "Grizedale (NW) ",
+                "describle": "Grizedale plays host to The North Face Trail",
+                "routesmiles": "20 miles",
+                "name": "name 3"
+               
+            }
+        ]
+    
